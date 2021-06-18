@@ -12,19 +12,19 @@ module.exports = {
   networks: {
     hardhat: {
       // Uncomment these lines to use mainnet fork
-      forking: {
-        url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
-        blockNumber: 11589707,
-      },
+      // forking: {
+      //   url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
+      //   blockNumber: 11589707,
+      // },
     },
-    live: {
-      url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
-      accounts: [process.env.MAINNET_PRIVKEY],
-    },
+    // live: {
+    //   url: `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
+    //   accounts: [process.env.MAINNET_PRIVKEY],
+    // },
   },
-  etherscan: {
-    apiKey: process.env.ETHERSCAN_API,
-  },
+  // etherscan: {
+  //   apiKey: process.env.ETHERSCAN_API,
+  // },
   namedAccounts: {
     deployer: 0,
     // admin: {
