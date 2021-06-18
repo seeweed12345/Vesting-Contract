@@ -1,6 +1,6 @@
-# Hardhat Kit
+# Vesting Contract
 
-Hardhat basic usage with forked mainnet and console.log
+Vesting contract for ERC20 token; continuous release of funds over a selected time period
 
 ## Dependencies
 
